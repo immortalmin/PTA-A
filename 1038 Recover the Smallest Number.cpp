@@ -1,12 +1,12 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<string>
 #include<vector>
 #include<algorithm>
 using namespace std;
-bool pan(string a,string b) { //ÅĞ¶ÏÁ½¸ö×Ö·û´®µÄ×îĞ¡×éºÏ£¬
-	string s1=a+b;//µÚÒ»ÖÖ×éºÏ·½Ê½
-	string s2=b+a;//µÚ¶şÖÖ×éºÏ·½Ê½
-	//ÅĞ¶ÏÁ½ÖÖ×éºÏ·½Ê½ÄÄÖÖ¸üĞ¡
+bool pan(string a,string b) { //åˆ¤æ–­ä¸¤ä¸ªå­—ç¬¦ä¸²çš„æœ€å°ç»„åˆï¼Œ
+	string s1=a+b;//ç¬¬ä¸€ç§ç»„åˆæ–¹å¼
+	string s2=b+a;//ç¬¬äºŒç§ç»„åˆæ–¹å¼
+	//åˆ¤æ–­ä¸¤ç§ç»„åˆæ–¹å¼å“ªç§æ›´å°
 	if(s1<s2) return true;//1
 	else return false;//0
 }

@@ -1,8 +1,8 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<string>
 #include<algorithm>
 using namespace std;
-bool judge(string s){//ÅĞ¶Ï×Ö·û´®ÊÇ²»ÊÇ»ØÎÄ 
+bool judge(string s){//åˆ¤æ–­å­—ç¬¦ä¸²æ˜¯ä¸æ˜¯å›æ–‡ 
 	int len=s.size();
 	for(int i=0;i<len/2;i++) if(s[i]!=s[len-1-i]) return false;
 	return true;

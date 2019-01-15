@@ -1,10 +1,10 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<cstring>
 #include<cstdio>
 using namespace std;
 int main(){
 //	freopen("1.txt","r",stdin);
-	double a[3];//±£´æ×î´óÖµ
+	double a[3];//ä¿å­˜æœ€å¤§å€¼
 	int bb[3];
 	char c[3]={'W','T','L'}; 
 	double b;

@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<cstring>
 #include<vector>
 #include<algorithm>
@@ -18,20 +18,20 @@ struct Info{
 	int aa;
 }info;
 vector<Info>v,vv;
-map<string,int>ma;//´Ó1¿ªÊ¼ 
-bool mysort1(const Info&a,const Info&b){//¸ù¾İcÓïÑÔ³É¼¨ÅÅÃû 
+map<string,int>ma;//ä»1å¼€å§‹ 
+bool mysort1(const Info&a,const Info&b){//æ ¹æ®cè¯­è¨€æˆç»©æ’å 
 	return a.c>b.c; 
 }
-bool mysort2(const Info&a,const Info&b){//¸ù¾İÊıÑ§³É¼¨ÅÅÃû 
+bool mysort2(const Info&a,const Info&b){//æ ¹æ®æ•°å­¦æˆç»©æ’å 
 	return a.m>b.m; 
 }
-bool mysort3(const Info&a,const Info&b){//¸ù¾İÓ¢Óï³É¼¨ÅÅÃû 
+bool mysort3(const Info&a,const Info&b){//æ ¹æ®è‹±è¯­æˆç»©æ’å 
 	return a.e>b.e; 
 }
-bool mysort4(const Info&a,const Info&b){//¸ù¾İÆ½¾ù³É¼¨ÅÅÃû 
+bool mysort4(const Info&a,const Info&b){//æ ¹æ®å¹³å‡æˆç»©æ’å 
 	return a.a>b.a; 
 }
-bool mysort5(const Info&a,const Info&b){//¸ù¾İÆ½¾ù³É¼¨ÅÅÃû 
+bool mysort5(const Info&a,const Info&b){//æ ¹æ®å¹³å‡æˆç»©æ’å 
 	return a.id<b.id; 
 }
 int main(){

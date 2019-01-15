@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<vector>
 #include<string>
 #include<algorithm>
@@ -6,8 +6,8 @@
 #include<cstdio>
 using namespace std;
 struct Info{
-	double aa;//Ö¸Êý
-	double bb;//ÏµÊý 
+	double aa;//æŒ‡æ•°
+	double bb;//ç³»æ•° 
 }info;
 vector<Info>v;
 map<double,int>mm;

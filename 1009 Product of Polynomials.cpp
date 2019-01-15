@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<vector>
 #include<algorithm>
 #include<cstring>
@@ -7,8 +7,8 @@ using namespace std;
 int book[1010];
 //double aa[1010];
 struct Info{
-	int aa;//Ö¸Êý
-	double bb;//ÏµÊý 
+	int aa;//æŒ‡æ•°
+	double bb;//ç³»æ•° 
 }info;
 vector<Info>v1,v2;
 vector<double>v3;

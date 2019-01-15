@@ -1,18 +1,18 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<cstring>
 #include<vector>
 using namespace std;
-int count[510];//±£´æÃ¿¸ö³ÇÊĞ¾ÈÔ®¶ÓµÄÊıÁ¿ 
-int map[510][510];//±£´æµØÍ¼
-int book[510];//±ê¼Ç 
+int count[510];//ä¿å­˜æ¯ä¸ªåŸå¸‚æ•‘æ´é˜Ÿçš„æ•°é‡ 
+int map[510][510];//ä¿å­˜åœ°å›¾
+int book[510];//æ ‡è®° 
 int m,n,startc,endc,sum=0,sum1,mint=999999;
 struct Info{
-	int aa;//µ±Ç°Î»ÖÃ
-	int bb;//Ê±¼ä 
-	int cc;//¾ÈÔ®¶ÓÊıÁ¿ 
+	int aa;//å½“å‰ä½ç½®
+	int bb;//æ—¶é—´ 
+	int cc;//æ•‘æ´é˜Ÿæ•°é‡ 
 }info;
 vector<Info>v;
-void dfs(int nowc,int nowt,int nows){//µ±Ç°³ÇÊĞ£¬µ±Ç°Ê±¼ä£¬µ±Ç°¾ÈÔ®¶ÓÊıÁ¿ 
+void dfs(int nowc,int nowt,int nows){//å½“å‰åŸå¸‚ï¼Œå½“å‰æ—¶é—´ï¼Œå½“å‰æ•‘æ´é˜Ÿæ•°é‡ 
 	if(nowt>mint) return ;
 	if(nowc==endc&&nowt<=mint){
 		if(nowt<mint){
@@ -44,11 +44,11 @@ int main(){
 			memset(map[i],0,sizeof(map[i]));
 		}
 		v.clear();
-		for(int i=0;i<m;i++){//±£´æÃ¿¸ö³ÇÊĞ¾ÈÔ®¶ÓµÄÊıÁ¿ 
+		for(int i=0;i<m;i++){//ä¿å­˜æ¯ä¸ªåŸå¸‚æ•‘æ´é˜Ÿçš„æ•°é‡ 
 			cin>>count[i];
 		}
 		int a,b,c;
-		for(int i=0;i<n;i++){//ÊäÈëµØÍ¼ 
+		for(int i=0;i<n;i++){//è¾“å…¥åœ°å›¾ 
 			cin>>a>>b>>c;
 			map[a][b]=c;
 			map[b][a]=c;
