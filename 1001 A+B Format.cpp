@@ -1,8 +1,8 @@
-#include<iostream>
+﻿#include<iostream>
 #include<string>
 #include<algorithm>
 using namespace std;
-string zhuan(int n){
+string zhuan(int n){//数值转换成字符串 
 	if(n==0) return "0";
 	string s="";
 	int a;
@@ -29,7 +29,7 @@ string add(string s){
 	return ss;
 }
 int main(){
-//	freopen("1.txt","r",stdin);
+//	freopen("1.txt","r",stdin); 
 	int a,b;
 	while(cin>>a>>b){
 		int flag=1;
